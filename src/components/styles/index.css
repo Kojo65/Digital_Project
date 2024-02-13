@@ -1,0 +1,1425 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background: var(--white, #fff);
+  box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.03);
+  display: flex;
+  align-items: center;
+  margin-bottom: -69px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 500;
+}
+
+.header-text {
+  font-weight: bolder;
+  font-size: 2.5em;
+  color: black;
+  padding-left: 36px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 15px 203px;
+  color: black;
+}
+
+li {
+  cursor: pointer;
+  margin-top: 19px;
+  padding: 12px;
+  font-size: medium;
+}
+
+li.pricing {
+  position: absolute;
+  left: 1129px;
+}
+
+.dropdown-button {
+  /* width: 18px;
+  object-fit: contain;
+  margin-left:  3px;
+  padding-top: 22px; */
+  position: absolute;
+  left: 1194px;
+  top: 48px;
+}
+
+.dropline {
+  /* height: 25px;
+  object-fit: contain;
+  margin: -6px -1px; */
+  position: absolute;
+  left: 1224px;
+  top: 46px;
+  height: 25px;
+  object-fit: contain;
+}
+
+.button {
+  margin-left: 310px;
+  margin-top: 22px;
+  border: none;
+  background-color: black;
+  color: white;
+  width: 67px;
+  height: 29px;
+  border-radius: 23px;
+}
+
+.Tressure_box {
+  display: flex;
+  margin-top: 69px;
+  /* padding: 8px 439px; */
+  padding-left: 451px;
+  padding-top: 114px;
+}
+
+.background {
+  background: white;
+  border-radius: 34px;
+}
+
+.purchase_text {
+  color: var(--dark, #060508);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 1000;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.purchase_add {
+  color: var(--grey, #6a6960);
+  font-family: SF Pro Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 11px;
+}
+
+.purchase_button {
+  display: flex;
+  padding: 24px 55px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 43px;
+  border: 1px solid gray;
+  background-color: transparent;
+  margin-left: 395px;
+}
+
+.purchase_button_2 {
+  position: absolute;
+  top: 662px;
+  left: 625px;
+  display: flex;
+  padding: 24px 88.5px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: black;
+  border: 1px solid black;
+  border-radius: 43px;
+  color: #f9f9fa;
+}
+
+.purchase_credits {
+  color: var(--dark, #060508);
+  font-family: SF Pro Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  margin-left: 488px;
+  margin-top: 42px;
+  margin-bottom: 55px;
+}
+
+.body_footer {
+  background: var(--white, #fff);
+  box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.03);
+  display: flex;
+  align-items: center;
+  margin-bottom: -69px;
+}
+
+.header-footer {
+  font-weight: bolder;
+  font-size: 2.5em;
+  color: black;
+  padding-left: 36px;
+}
+
+.header-footer {
+  font-weight: bolder;
+  font-size: 2.5em;
+}
+
+.list {
+  list-style: none;
+  /* padding: 0 12px; */
+  margin-left: 224px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  font-weight: 100;
+  text-decoration: underline;
+  /* position: absolute;
+  left: 665px;
+  word-spacing: -44px; */
+}
+
+.list li {
+  margin: 8px 0px;
+}
+
+.list li:first-child {
+  margin-left: 10px;
+}
+
+.list li:last-child {
+  margin-right: 0;
+}
+
+/* position: absolute; */
+/* left: 483px; */
+/* left: 248px;  */
+
+/* color: var(--dark, #060508); */
+/* font-family: SF Pro Display; */
+/* font-size: 20px; */
+/* font-style: normal;
+    font-weight: 100;
+   line-height: normal; */
+/* text-decoration-line: underline; */
+/* display: flex;
+   word-spacing: normal;
+   text-decoration: underline;
+   margin: -11px 3px; */
+
+/* footer{
+    background: var(--bg, #F9F9FA);
+    width: 100%;
+    height: 107px;
+} */
+
+.Brand_text {
+  display: flex;
+  margin-top: 69px;
+  /* padding: 8px 439px; */
+  padding-left: 48px;
+  padding-top: 119px;
+  color: var(--dark, #060508);
+  font-family: SF Pro Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.Brand_body {
+  border-radius: 14px;
+  background: #fff;
+  /* width: 1320px;
+height: 1085px; */
+  flex-shrink: 0;
+}
+
+.Brand_input {
+  position: absolute;
+  left: 39px;
+  top: 280px;
+  width: 796px;
+  height: 56px;
+  border-radius: 90px;
+  border: 1px;
+  text-align: left;
+  padding-left: 33px;
+  border: 2px solid gray;
+}
+
+.Brand_button {
+  display: flex;
+  padding: 16px 55px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-left: 853px;
+  margin-top: 48px;
+  border: 1px solid black;
+  /* width: 96px;
+  height: 33px; */
+  background-color: black;
+  border-radius: 34px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Brand_image {
+  display: flex;
+  width: 440px;
+  height: 404px;
+  margin-left: 444px;
+  margin-top: 99px;
+  object-fit: cover;
+}
+
+.Brand {
+  color: var(--dark, #060508);
+  font-family: SF Pro Display;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-left: 224px;
+  margin-bottom: 23px;
+}
+
+.Brand_email_text {
+  color: var(--grey, #6a6960);
+  font-family: SF Pro Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 224px;
+}
+
+.buttons {
+  display: flex;
+  padding: 24px 55px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-left: 514px;
+  margin-top: 44px;
+  background: transparent;
+  border-radius: 34px;
+}
+
+footer {
+  background: var(--white, #fff);
+  box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.03);
+  display: flex;
+  align-items: center;
+  margin-bottom: -69px;
+  margin-top: 11px;
+  width: 1342px;
+  height: 107px;
+}
+
+.brand-list {
+  display: flex;
+  /* padding: 45px 269px; */
+  list-style: none;
+  margin-left: 699px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.brand-footer {
+  font-weight: bolder;
+  font-size: 2.5em;
+  color: black;
+  padding-left: 36px;
+}
+
+.brand-footer {
+  font-weight: bolder;
+  font-size: 2.5em;
+}
+
+.color {
+  background-color: #e6e6e6;
+  width: 1343px;
+  height: 1400px;
+}
+
+.brand_text {
+  display: flex;
+  margin-top: 39px;
+  /* padding: 8px 439px; */
+  padding-left: 48px;
+  padding-top: 20px;
+  color: var(--dark, #060508);
+  font-family: SF Pro Display;
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 1000px;
+  line-height: normal;
+}
+
+.background {
+  position: absolute;
+  top: 110px;
+  left: 66px;
+  width: 86%;
+  background-color: #fff;
+  height: 38%;
+  border-radius: 8px;
+}
+
+.input {
+  margin-top: 39px;
+  margin-left: 44px;
+  width: 749px;
+  height: 54px;
+  border: 1px solid black;
+  border-radius: 99px;
+  padding: 23px;
+  padding-left: 48px;
+  color: gray;
+  font-weight: 100;
+  font-size: large;
+}
+
+.brand_button {
+  margin-left: 22px;
+  border-radius: none;
+  width: 229px;
+  height: 62px;
+  background-color: black;
+  color: white;
+  border-radius: 23px;
+  font-weight: 100;
+  font-size: large;
+  cursor: pointer;
+}
+
+.background-color {
+  position: absolute;
+  top: 259px;
+  left: 66px;
+  width: 86%;
+  height: 999px;
+  /* top: 559px;
+  left: px;
+  width: 100%; */
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.my_list {
+  color: black;
+  font-weight: 900;
+  margin-left: 48px;
+  font-family: "SF Pro Display";
+  padding-top: 20px;
+}
+
+.list_text {
+  margin-left: 48px;
+  margin-top: 9px;
+  color: gray;
+  /* font-family: SF Pro Display; */
+  font-weight: 600;
+  font-size: large;
+}
+
+.brand_buttons {
+  margin-left: 823px;
+  border-radius: none;
+  width: 229px;
+  height: 62px;
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+  font-weight: 100;
+  font-size: large;
+  cursor: pointer;
+  position: absolute;
+  top: 39px;
+  left: 0px;
+}
+
+.brand_words{
+  margin-left: 683px;
+  font-weight: 600;
+  font-size: large;
+  position: absolute;
+  top: 62px;
+  left: 0px;
+  color: #060508;
+}
+
+.list_circle {
+  margin-left: 109px;
+  margin-top: 99px;
+  background-color: #e6e6e68f;
+  width: 60px;
+  height: 60px;
+  border-radius: 89px;
+  padding-left: 17px;
+  padding-top: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: x-large;
+}
+
+.list_email {
+  position: absolute;
+  top: 192px;
+  left: 201px;
+  font-weight: 400;
+  /* font-family: SF Pro Display ; */
+  font-size: xx-large;
+}
+
+.total_list {
+  position: absolute;
+  left: 889px;
+  top: 199px;
+  font-size: x-large;
+  color: rgba(128, 128, 128, 0.87);
+}
+
+hr {
+  margin: 0 6rem;
+  border: 0;
+  border: 1px solid #ccc;
+  margin-top: 18px;
+}
+
+
+.First_line{
+  margin: 0 6rem;
+  border: 0;
+  border: 1px solid #ccc;
+  margin-top: 18px;
+}
+
+.Second_line{
+  margin: 0 6rem;
+  border: 0;
+  border: 1px solid #ccc;
+  margin-top: 77px;
+}
+
+.Third_line{
+  margin: 0 6rem;
+  border: 0;
+  border: 1px solid #ccc;
+  margin-top: 71px;
+}
+
+.Fourth_line{
+  margin: 0 6rem;
+  border: 0;
+  border: 1px solid #ccc;
+  margin-top: 71px;
+}
+
+.Firth_line{
+  margin: 0 6rem;
+  border: 0;
+  border: 1px solid #ccc;
+  margin-top: 71px;
+}
+
+.Sixth_line{
+  margin: 0 6rem;
+  border: 0;
+  border: 1px solid #ccc;
+  margin-top: 71px;
+}
+
+.list_circle_1 {
+  margin-left: 109px;
+  margin-top: 23px;
+  background-color: #e6e6e68f;
+  width: 60px;
+  height: 60px;
+  border-radius: 89px;
+  padding-left: 8px;
+  padding-top: 14px;
+  font-weight: 600;
+}
+
+.list_emails {
+  position: absolute;
+  top: 302px;
+  left: 201px;
+  font-weight: 400;
+  /* font-family: SF Pro Display ; */
+  font-size: xx-large;
+}
+
+.total_lists {
+  position: absolute;
+  left: 896px;
+  top: 309px;
+  font-size: x-large;
+  color: rgba(128, 128, 128, 0.87);
+}
+
+.circles {
+  margin-left: 113px;
+  margin-top: 17px;
+  background-color: #e6e6e68f;
+  width: 60px;
+  height: 60px;
+  border-radius: 89px;
+  padding-left: 12px;
+  padding-top: 14px;
+  font-weight: 600;
+}
+
+.emails {
+  position: absolute;
+  top: 399px;
+  left: 201px;
+  font-weight: 400;
+  /* font-family: SF Pro Display ; */
+  font-size: xx-large;
+}
+
+.total {
+  position: absolute;
+  left: 899px;
+  top: 409px;
+  font-size: x-large;
+  color: rgba(128, 128, 128, 0.87);
+}
+
+.emails_text {
+  position: absolute;
+  top: 489px;
+  left: 201px;
+  font-weight: 400;
+  /* font-family: SF Pro Display ; */
+  font-size: xx-large;
+}
+
+.totals {
+  position: absolute;
+  left: 899px;
+  top: 489px;
+  font-size: x-large;
+  color: rgba(128, 128, 128, 0.87);
+}
+
+.emails_text_1 {
+  position: absolute;
+  top: 589px;
+  left: 201px;
+  font-weight: 400;
+  /* font-family: SF Pro Display ; */
+  font-size: xx-large;
+}
+
+.totals_1 {
+  position: absolute;
+  left: 899px;
+  top: 589px;
+  font-size: x-large;
+  color: rgba(128, 128, 128, 0.87);
+}
+
+.emails_text_2 {
+  position: absolute;
+  top: 679px;
+  left: 201px;
+  font-weight: 400;
+  /* font-family: SF Pro Display ; */
+  font-size: xx-large;
+}
+
+.totals_2 {
+  position: absolute;
+  left: 899px;
+  top: 689px;
+  font-size: x-large;
+  color: rgba(128, 128, 128, 0.87);
+}
+
+.emails_text_3 {
+  position: absolute;
+  top: 789px;
+  left: 201px;
+  font-weight: 400;
+  /* font-family: SF Pro Display ; */
+  font-size: xx-large;
+}
+
+.totals_3 {
+  position: absolute;
+  left: 899px;
+  top: 799px;
+  font-size: x-large;
+  color: rgba(128, 128, 128, 0.87);
+}
+
+._button {
+  display: flex;
+  padding: 24px 55px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-left: 514px;
+  margin-top: 44px;
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid black;
+  font-family: SF Pro Display;
+  font-size: x-large;
+  cursor: pointer;
+}
+
+.input_email {
+  margin-top: 39px;
+  margin-left: 44px;
+  width: 469px;
+  height: 54px;
+  border: 1px solid black;
+  border-radius: 99px;
+  padding: 23px;
+  padding-left: 48px;
+  color: gray;
+  font-weight: 100;
+  font-size: large;
+}
+
+.arrow {
+  position: absolute;
+  left: 529px;
+  top: 161px;
+}
+
+.Credits {
+  margin-top: 39px;
+  margin-left: 54px;
+  width: 359px;
+  height: 54px;
+  border: 1px solid black;
+  border-radius: 99px;
+  padding: 23px;
+  padding-left: 48px;
+  color: gray;
+  font-weight: 100;
+  font-size: large;
+}
+
+.Make_button {
+  position: absolute;
+  left: 935px;
+  top: 144px;
+  border: none;
+  background-color: black;
+  color: white;
+  width: 209px;
+  height: 62px;
+  border-radius: 23px;
+  cursor: pointer;
+}
+
+.add_button {
+  margin-left: 823px;
+  border-radius: none;
+  width: 119px;
+  height: 62px;
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+  font-weight: 100;
+  font-size: large;
+  cursor: pointer;
+  position: absolute;
+  top: 29px;
+  left: 149px;
+}
+
+.checkbox {
+  margin-left: 109px;
+  margin-top: 99px;
+  background-color: #e6e6e68f;
+  width: 60px;
+  height: 60px;
+  border-radius: 89px;
+  padding-left: 17px;
+  padding-top: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: x-large;
+}
+
+.checkbox_email {
+  position: absolute;
+  top: 379px;
+  left: 201px;
+  font-weight: 400;
+  /* font-family: SF Pro Display ; */
+  font-size: xx-large;
+}
+
+.check {
+  position: absolute;
+  left: 899px;
+  top: 559px;
+  font-size: x-large;
+  color: rgba(128, 128, 128, 0.87);
+}
+
+.totalcheck {
+  position: absolute;
+  left: 899px;
+  top: 389px;
+  font-size: x-large;
+  color: rgba(128, 128, 128, 0.87);
+}
+
+.emails_texts {
+  position: absolute;
+  top: 559px;
+  left: 201px;
+  font-weight: 400;
+  /* font-family: SF Pro Display ; */
+  font-size: xx-large;
+}
+
+.background-colors {
+  position: absolute;
+  top: 379px;
+  left: 66px;
+  width: 86%;
+  height: 949px;
+  /* top: 559px;
+  left: px;
+  width: 100%; */
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.users_total {
+  position: absolute;
+  top: 779px;
+  left: 101px;
+  font-weight: 600;
+  /* font-family: SF Pro Display ; */
+  font-size: xx-large;
+}
+
+.users_totals {
+  position: absolute;
+  top: 779px;
+  left: 891px;
+  font-weight: 600;
+  /* font-family: SF Pro Display ; */
+  font-size: xx-large;
+}
+
+.history_text {
+  position: absolute;
+  top: 144px;
+  font-weight: 900;
+  left: 479px;
+  font-size: xx-large;
+}
+
+.history {
+  position: absolute;
+  top: 194px;
+  font-weight: 500;
+  left: 379px;
+  /* font-family: SF Pro Display; */
+  color: gray;
+  font-size: x-large;
+}
+
+.invoice_input {
+  position: absolute;
+  left: 204px;
+  top: 73px;
+  /* margin-top: 39px;
+  margin-left: 44px; */
+  width: 769px;
+  height: 54px;
+  border: none;
+  border-radius: 99px;
+  padding: 23px;
+  padding-left: 48px;
+  color: gray;
+  font-weight: 100;
+  font-size: large;
+  background-color: rgba(128, 128, 128, 0.068);
+}
+
+.invoice_checkbox {
+  margin-left: 109px;
+  margin-top: 209px;
+  background-color: #e6e6e68f;
+  width: 30px;
+  height: 30px;
+  /* border-radius: 89px;
+  padding-left: 17px;
+  padding-top: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: x-large; */
+}
+
+.invoice_number {
+  position: absolute;
+  top: 206px;
+  left: 173px;
+  font-weight: 600;
+}
+
+.Credits_number {
+  position: absolute;
+  top: 208px;
+  left: 443px;
+  font-weight: 600;
+}
+
+.Amount_number {
+  position: absolute;
+  top: 208px;
+  left: 623px;
+  font-weight: 600;
+}
+
+.Date_number {
+  position: absolute;
+  top: 208px;
+  left: 803px;
+  font-weight: 600;
+}
+
+.Download {
+  position: absolute;
+  top: 208px;
+  left: 933px;
+  font-weight: 600;
+  color: blue;
+}
+
+.invoice {
+  position: absolute;
+  top: 286px;
+  left: 109px;
+  font-weight: 600;
+  width: 30px;
+  height: 30px;
+}
+
+.invoices {
+  position: absolute;
+  top: 286px;
+  left: 173px;
+  font-weight: 600;
+}
+
+.credits_number {
+  position: absolute;
+  top: 286px;
+  left: 453px;
+  font-weight: 600;
+}
+
+.amount_number {
+  position: absolute;
+  top: 286px;
+  left: 623px;
+  font-weight: 600;
+}
+
+.date_number {
+  position: absolute;
+  top: 286px;
+  left: 803px;
+  font-weight: 600;
+}
+
+.download {
+  position: absolute;
+  top: 286px;
+  left: 983px;
+  font-weight: 600;
+}
+
+.background-color_1{
+  position: absolute;
+  top: 379px;
+  left: 66px;
+  width: 86%;
+  height: 999px;
+  /* top: 559px;
+  left: px;
+  width: 100%; */
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+/* .invoice{
+  margin-left: 109px;
+  margin-top: 309px;
+  background-color: #e6e6e68f;
+  width: 30px;
+  height: 30px;
+} */
+
+.checkbox_1 {
+  margin-left: 109px;
+  margin-top: 399px;
+  background-color: #e6e6e68f;
+  width: 60px;
+  height: 60px;
+}
+
+.invoice_1 {
+  position: absolute;
+  top: 356px;
+  left: 109px;
+  font-weight: 600;
+  width: 30px;
+  height: 30px;
+}
+
+.invoice_2 {
+  position: absolute;
+  top: 356px;
+  left: 169px;
+  font-weight: 600;
+}
+
+.credit_number {
+  position: absolute;
+  top: 356px;
+  left: 453px;
+  font-weight: 600;
+}
+
+.amounts_number {
+  position: absolute;
+  top: 356px;
+  left: 623px;
+  font-weight: 600;
+}
+
+.downloads {
+  position: absolute;
+  top: 356px;
+  left: 985px;
+  font-weight: 600;
+}
+
+.date_numbers {
+  position: absolute;
+  top: 356px;
+  left: 803px;
+  font-weight: 600;
+}
+
+.invoice_3 {
+  position: absolute;
+  top: 426px;
+  left: 169px;
+  font-weight: 600;
+}
+
+.invoice_4 {
+  position: absolute;
+  top: 426px;
+  left: 109px;
+  font-weight: 600;
+  width: 30px;
+  height: 30px;
+}
+
+.credit_numbers {
+  position: absolute;
+  top: 426px;
+  left: 453px;
+  font-weight: 600;
+}
+
+.amount_numbers {
+  position: absolute;
+  top: 426px;
+  left: 623px;
+  font-weight: 600;
+}
+
+.dates_number {
+  position: absolute;
+  top: 426px;
+  left: 803px;
+  font-weight: 600;
+}
+
+.downloading {
+  position: absolute;
+  top: 426px;
+  left: 985px;
+  font-weight: 600;
+}
+
+.invoice_5 {
+  position: absolute;
+  top: 496px;
+  left: 109px;
+  font-weight: 600;
+  width: 30px;
+  height: 30px;
+}
+
+.invoice_6 {
+  position: absolute;
+  top: 496px;
+  left: 169px;
+  font-weight: 600;
+}
+
+.credit {
+  position: absolute;
+  top: 496px;
+  left: 453px;
+  font-weight: 600;
+}
+
+.amount {
+  position: absolute;
+  top: 496px;
+  left: 623px;
+  font-weight: 600;
+}
+
+.dates {
+  position: absolute;
+  top: 496px;
+  left: 803px;
+  font-weight: 600;
+}
+
+.downloadings {
+  position: absolute;
+  top: 496px;
+  left: 985px;
+  font-weight: 600;
+}
+
+.invoice_7 {
+  position: absolute;
+  top: 576px;
+  left: 109px;
+  font-weight: 600;
+  width: 30px;
+  height: 30px;
+}
+
+.invoice_8 {
+  position: absolute;
+  top: 576px;
+  left: 169px;
+  font-weight: 600;
+}
+
+.credits {
+  position: absolute;
+  top: 576px;
+  left: 453px;
+  font-weight: 600;
+}
+
+.amounts {
+  position: absolute;
+  top: 576px;
+  left: 623px;
+  font-weight: 600;
+}
+
+.date {
+  position: absolute;
+  top: 576px;
+  left: 803px;
+  font-weight: 600;
+}
+
+.downloaded {
+  position: absolute;
+  top: 576px;
+  left: 985px;
+  font-weight: 600;
+}
+
+
+
+.more {
+  display: flex;
+  padding: 24px 55px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-left: 448px;
+  margin-top: 114px;
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid black;
+  font-family: SF Pro Display;
+  font-size: x-large;
+  cursor: pointer;
+}
+
+.colour {
+  position: absolute;
+  top: 119px;
+  left: 66px;
+  width: 86%;
+  height: 778px;
+  /* top: 559px;
+  left: px;
+  width: 100%; */
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.text {
+  object-fit: cover;
+  width: 388px;
+  margin-left: 403px;
+}
+
+.support {
+  position: absolute;
+  top: 623px;
+  left: 463px;
+  width: 180px;
+  height: 56px;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 29px;
+}
+
+.colored {
+  background-color: #e6e6e6;
+  width: 1343px;
+  height: 940px;
+}
+
+.text_word {
+  position: absolute;
+  top: 594px;
+  left: 324px;
+  font: 900 77px Arial, sans-serif;
+}
+
+.imgfluid {
+  display: flex;
+  position: absolute;
+  left: 391px;
+  top: 99px;
+  width: 490px;
+  object-fit: contain;
+}
+
+.demo {
+  position: absolute;
+  top: 723px;
+  left: 383px;
+  color: gray;
+}
+
+.demo_button {
+  position: absolute;
+  top: 789px;
+  left: 324px;
+  width: 272px;
+  height: 56px;
+  border-radius: 90px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.demo_button_1 {
+  position: absolute;
+  top: 789px;
+  left: 624px;
+  width: 272px;
+  height: 56px;
+  border-radius: 90px;
+  border: 1px solid black;
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+}
+.coloured {
+  background-color: #e6e6e6;
+  width: 1343px;
+  height: 1099px;
+}
+
+.Live {
+  background-color: #e6e6e6;
+  position: absolute;
+  top: 119px;
+  left: 66px;
+  width: 86%;
+  height: 780px;
+  border-radius: 18px;
+  /* width: 229px;
+height: 610px;  */
+  /* 
+flex-shrink: 0;
+margin-left: 55px; */
+}
+
+.image {
+  position: absolute;
+  top: 66px;
+  left: 66px;
+  background-color: white;
+  width: 880px;
+  padding: 11px 628px 11px 17px;
+  align-items: center;
+  gap: 18px;
+  border-radius: 12px;
+}
+
+.name {
+  font-size: medium;
+  position: absolute;
+  top: 21px;
+  left: 72px;
+  font-weight: 500;
+}
+
+.green {
+  background-color: #00bb1e;
+  width: 10px;
+  height: 10px;
+  border-radius: 34px;
+  position: absolute;
+  top: 47px;
+  left: 72px;
+}
+
+.active {
+  position: absolute;
+  top: 42px;
+  left: 88px;
+  font-weight: 400;
+  font-size: small;
+  color: #6a6960;
+}
+
+.today {
+  position: absolute;
+  top: 147px;
+  left: 443px;
+  color: gray;
+}
+
+.file {
+  position: absolute;
+  top: 429px;
+  left: 109px;
+  /* */
+  border-radius: 18px;
+  background-color: white;
+  width: 32%;
+  height: 61px;
+
+  gap: 18px;
+}
+
+.gmail_text {
+  font-size: small;
+  color: var(--dark, #060508);
+  text-align: center;
+  font-family: "SF Pro Display";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 24px;
+}
+
+.time{
+  position: absolute;
+  top: 66px;
+  left: 309px;
+  color: gray;
+}
+
+.account{
+  background-color: #0028FB;
+  position: absolute;
+  top: 199px;
+  left: 550px;
+  border-radius: 18px;
+  width: 99%;
+  height: 61px;
+  gap: 18px;
+}
+
+.gmail{
+  font-size: small;
+  color: var(--dark, #060508);
+  /* text-align: center; */
+  font-family: "SF Pro Display";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  padding-top: 24px;
+  padding-left: 26px;
+  color: white;
+}
+
+.times{
+  position: absolute;
+  top: 66px;
+  left: 309px;
+  color: gray;
+}
+
+
+.add_plus{
+  position: absolute;
+  top: 306px;
+  left: 1px;
+  background-color: white;
+  /* width: 880px;
+  padding: 11px 628px 11px 17px; */
+  /* width:90%; */
+  width: 940px;
+  height: 61px;
+  gap: 18px;
+  border-radius: 12px;
+padding-left: 1px;
+}
+
+.plus{
+  margin-top:21px;
+  margin-left: 14px;
+  width: 24px;
+height: 24px;
+flex-shrink: 0;
+}
+
+.plus_text{
+  margin-top:-28px;
+  margin-left: 59px;
+  font-weight: 400;
+  font-size: large;
+}
